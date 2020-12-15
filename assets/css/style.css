@@ -1,0 +1,28 @@
+:root{
+    --dark:#1b1b1b;
+    --light:#ffffff;
+    --gold:#ecb5a7;
+}
+body{
+    font-family:'Oswald', sans-serif;
+    background-color:var(--dark);
+    font-weight:200;
+    letter-spacing:.05rem;
+    color:var(--light);
+}
+.lead{font-size:1.75rem;}
+
+.border-right{border-right:1px solid rgba(256, 256, 256, .1)!important;}
+
+/*navbar*/
+.navbar{min-height:70px;}
+.navbar-dark, 
+.bg-dark{background-color:var(--dark)!important;}
+
+/*slidways*/
+.slidways{
+    writing-mode:vertical-lr;
+    transform:rotate(180deg);
+}
+
+
